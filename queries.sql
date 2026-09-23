@@ -1,0 +1,20 @@
+create table player (
+  id_player primiray key not null auto_icrement,
+  nome VARCHAR(100) not null,
+  guild VARCHAR(100),
+  xp_level int not null,
+  skills VARCHAR(1000)<
+  level int not null.
+  nax_level int not null,
+  cimbat_style VARCHAR(100) not null
+
+):
+
+inseret into player
+(name, guild, xp_level, skills, level, combate_style)
+VALUES
+("Maiara haland ", "chupinga", 0, null, 1, 100, "Soco")
+/* Criar mais 3 inseret na tabela  Player */
+
+/* Depois dos 3 inseret: */
+SELECT * FROM Player:
